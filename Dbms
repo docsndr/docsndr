@@ -1,0 +1,10 @@
+Select * From Customer WHERE State = "CA";
+Select * From Products WHERE ProductName LIKE "Apple%";
+Create View CACustomers AS Select * From Customer WHERE State = "CA";
+Alter Table Customer ADD City varchar(20);
+Select Count(*) From Customer WHERE State = "VA";
+Update Customer SET State = "NY" WHERE CustomerID = "C01";
+Select * From Products WHERE Price > 99.99;
+Alter Table Customer DROP City;
+Select * From Customer Where State IN ("NY", "FL", "MI");
+Select * From Customer Where CustomerName LIKE "_A%";
